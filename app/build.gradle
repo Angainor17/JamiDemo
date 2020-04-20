@@ -48,7 +48,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-//    implementation 'de.cgrotz:kademlia:1.0.1'
     implementation 'io.libp2p:jvm-libp2p-minimal:0.3.2-RELEASE'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
